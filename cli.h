@@ -28,6 +28,7 @@
 #define CLI_H_
 
 #include <stdlib.h>
+#include <stdint.h>
 
 typedef struct {
     const char  *name;

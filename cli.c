@@ -99,7 +99,7 @@ static void CLI_DelChar (void);
  */
 static int CLI_Write (const void *buf, size_t len)
 {
-    return write (0, buf, len);
+    return write (1, buf, len);
 }
 
 
